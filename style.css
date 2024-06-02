@@ -45,7 +45,7 @@
         }
         
         .socialnetworks a{
-            padding: 20px;
+            padding: 20px 40px;
             margin-bottom: 10px;
             width: 250px;
             background-color: #f34739;
@@ -78,7 +78,7 @@
                 flex-wrap: wrap
             }
             .socialnetworks-inline i{ 
-                font-size: 70px;
+                font-size: 40px;
             }
             .socialnetworks-inline i:hover{
                 cursor: pointer;
