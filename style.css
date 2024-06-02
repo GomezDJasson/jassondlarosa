@@ -4,7 +4,7 @@
 
         html{
             font-family: 'Fredoka One', sans-serif, Arial;
-            background: linear-gradient(130deg, rgb(252, 3, 3), rgb(168, 66, 66), rgb(3, 3, 3));
+            background: rgb(168, 66, 66);
         }
 
         .titles{
