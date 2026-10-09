@@ -62,9 +62,9 @@
 .social-tiktok .social-icon svg{filter:drop-shadow(-2px 0 0 rgba(37,244,238,.95)) drop-shadow(2px 0 0 rgba(254,44,85,.9))}
 @media(max-width:560px){
   .page{
-    background-size:100% auto;
-    background-position:center top;
-    background-repeat:repeat-y;
+    background-size:cover;
+    background-position:60% top;
+    background-repeat:no-repeat;
     background-attachment:scroll;
   }
 }
