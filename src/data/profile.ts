@@ -16,7 +16,6 @@ export const profile = {
   ],
   shopping:{
     label:'Compras',
-    title:'Stefa Store',
     description:'Visita nuestra tienda y descubre lo que tenemos para ti.',
     href:'https://stefastore.com',
   },
