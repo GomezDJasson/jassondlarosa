@@ -49,3 +49,22 @@
 @media(max-width:560px){
   .page{background-image:linear-gradient(180deg,rgba(4,6,14,.20) 0%,rgba(4,6,14,.40) 48%,rgba(4,6,14,.78) 100%),url('/jassondlarosa/assets/anime-night-mobile.webp');background-size:cover;background-position:center top;background-attachment:scroll}
 }
+
+
+/* Ajustes de contraste para X/TikTok y encuadre del fondo móvil */
+.social-x{--accent:#f5f7ff;--glow:rgba(225,230,255,.48)}
+.social-x .social-icon{color:#fff;background:rgba(7,9,16,.94);border-color:rgba(235,239,255,.9);box-shadow:0 10px 24px rgba(0,0,0,.5),0 0 18px rgba(235,239,255,.24),0 0 38px rgba(235,239,255,.2),inset 0 0 12px rgba(255,255,255,.04)}
+.social-x .social-icon:before{border-color:#f5f7ff;opacity:.58;box-shadow:0 0 15px rgba(235,239,255,.32),0 0 32px rgba(235,239,255,.2)}
+.social-x .social-icon svg{filter:drop-shadow(0 0 5px rgba(255,255,255,.4))}
+.social-tiktok{--accent:#fff;--glow:rgba(37,244,238,.28)}
+.social-tiktok .social-icon{color:#fff;background:rgba(7,9,16,.96);border-color:rgba(255,255,255,.88);box-shadow:0 10px 24px rgba(0,0,0,.5),0 0 18px rgba(37,244,238,.22),0 0 38px rgba(254,44,85,.18),inset 0 0 12px rgba(255,255,255,.04)}
+.social-tiktok .social-icon:before{border-color:#fff;opacity:.5;box-shadow:0 0 15px rgba(37,244,238,.26),0 0 30px rgba(254,44,85,.2)}
+.social-tiktok .social-icon svg{filter:drop-shadow(-2px 0 0 rgba(37,244,238,.95)) drop-shadow(2px 0 0 rgba(254,44,85,.9))}
+@media(max-width:560px){
+  .page{
+    background-size:100% auto;
+    background-position:center top;
+    background-repeat:repeat-y;
+    background-attachment:scroll;
+  }
+}
